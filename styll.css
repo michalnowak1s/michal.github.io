@@ -1,1 +1,6 @@
- body{ background-color: green; }
+#hello{
+	background-color: #ffff;
+	text-align: center;
+	color:white;
+	font-size: 20vw;
+}
