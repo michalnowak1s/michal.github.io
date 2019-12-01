@@ -13,6 +13,7 @@ span {
   float: left;
   display: block;
   background-color: darkcyan;
+  border-radius: 50px 50px 50px 50px;
   margin: 0px 0px 5px 0px;
   height: 50px;
   width: 100%;
