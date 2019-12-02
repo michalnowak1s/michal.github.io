@@ -3,10 +3,9 @@
   --main-color: rgba(13, 110, 139, 0.75);
   --overlay-color: rgba(24, 39, 51, 0.85);
 }
-body {
-  box-sizing: border-box;
+.container-fluid{
   background-image: url(/coffe-2991458_1920.jpg);
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   margin: 0;
   padding: 0;
   font-family: "Lobster", cursive;
@@ -15,52 +14,21 @@ body {
 }
 #menu a{
   text-decoration: none;
+  font-size: 1.5vw;
   color: #000000;
   padding: 5px;
  }
  #menu ul li{
   display: inline;
  }
- .dropdown-menu{
+ .dropdown_menu{
   display: none;
  }
-.hello {
-  text-align: center;
-  color: white;
-  font-size: 10vw;
-  line-height:8.5vw;
-  height: 10vw;
-  -webkit-text-shadow: 3px 3px 5px 6px #000000;
-  -moz-text-shadow: 3px 3px 5px 6px #000000;
-  text-shadow: 8px 4px 4px #000000;
-}
+
 
 .menu-bar {
   padding: 0;
   width: 20em;
   margin: 24px;
   overflow-x: 1;
-}
-p {
-  float: left;
-  display: block;
-  background-color: darkcyan;
-  border-radius: 50px 50px 50px 50px;
-  margin: 0px 0px 5px 0px;
-  height: 50px;
-  width: 100%;
-  animation-name: animateIN;
-  animation-duration: 350ms;
-  animation-delay: calc(attr(--animation-order) * 150ms);
-  animation-fill-mode: both;
-  animation-timing-function: ease-in-out;
-}
-@keyframes animateIN {
-  0% {
-    opacity: 0;
-    transform: scale(0.6) translateX(-8px);
-  }
-  100% {
-    opacity: 1;
-  }
 }

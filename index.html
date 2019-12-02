@@ -7,47 +7,201 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="description" content="" />
     <meta name="keywords" content="long coffe" />
     <meta name="author" content="Michal Nowak" />
     <link rel="stylesheet" type="text/css" href="styll.css" />
-    <script
-    src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"
-  ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
   </head>
   <body>
-    
-    <!-- <div class="menu-bar">
-      <p class="--animation-order: 1;"> </p>
-      <p class="--animation-order: 2;"> </p>
-      <p class="--animation-order: 3;"> </p>
-    </div> -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <div id="menu">
+            <ul>
+              <li>
+                <a href="#" class="btn btn-danger btn-default btn-lg"
+                  >Link One</a
+                >
+              </li>
+              <li id="drop">
+                <a href="#" class="btn btn-info btn-default btn-lg">Link Two</a>
+                <ul class="dropdown_menu">
+                  <li>
+                    <a href="#" class="btn btn-primary btn-md" role="button"
+                      >Dropdown Link</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="btn btn-primary btn-md" role="button"
+                      >Another Dropdown Link</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
-    <div class="hello">
-      Hello coffe world
-    </div>
-    <div id="menu">
-      <ul>
-        <li>
-          <a href="#">Link Two</a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Dropdown Link</a></li>
-            <li><a href="#">Another Dropdown Link</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-    <script>
-    
-          $(document).ready(function(){
-        $("#menu li").click(function(){
-        if($(".dropdown-menu").is(":hidden")){ $(".dropdown-menu").slideDown(100);}
-        else{
-           $(".dropdown-menu", this).stop().slideUp(100);
-          }
-         });
-      
+      <div class="row">
+        <div class="col text-center text-danger">asd</div>
+        <div class="col text-center text-danger">asd</div>
+        <div class="w-100"></div>
+        <div class="col text-center text-danger">asd</div>
+        <div class="col text-center text-danger">asd</div>
+      </div>
+      <div class="row">
+        <div class="col text-center text-danger">
+          <h1>Hello coffe world</h1>
+        </div>
+      </div>
+      <div class="row">
+        
+            <figure class="col-md-4">
+              
+                <img
+                  alt="picture"
+                  src="grain_coffe.jpg"
+                  class="img-fluid"
+                />
+                <h1> Kawa zbożowa</h1>
+                <article>
+                  Jest to napój kawo podobny, który cieszy gorzkawym przybliżonym do kawy.Jest świetnym dodatkiem do śniadania, cieszy się również popularnościom wśród młodzieży zainteresowanej tematem kawy.
+                </article>
+            </figure>
+
+            <figure class="col-md-4">
+                              <img
+                  alt="picture"
+                  src="cof_free.png"
+                  class="img-fluid"
+                />
+             <h1>Kawa bez kofeinowa</h1>
+             <article>Podobnie jak kawa zbożowa, kawa bezkofeinowa może być świetnym zamiennikiem dla tradycyjnej kawy. Idealnie pasuje dla młodzieży próbującej wejść w swiat kawy.
+              Dodatkowo może ona pozwolić osobą uczulonym na kawę skosztować tego trunku.
+          
+             </article>
+            </figure>
+
+            <figure class="col-md-4">
+              <a
+                href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(131).jpg"
+                data-size="1600x1067"
+              >
+                <img
+                  alt="picture"
+                  src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(131).jpg"
+                  class="img-fluid"
+                />
+              </a>
+            </figure>
+
+            <figure class="col-md-4">
+              <a
+                href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(123).jpg"
+                data-size="1600x1067"
+              >
+                <img
+                  alt="picture"
+                  src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(123).jpg"
+                  class="img-fluid"
+                />
+              </a>
+            </figure>
+
+            <figure class="col-md-4">
+              <a
+                href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(118).jpg"
+                data-size="1600x1067"
+              >
+                <img
+                  alt="picture"
+                  src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(118).jpg"
+                  class="img-fluid"
+                />
+              </a>
+            </figure>
+
+            <figure class="col-md-4">
+              <a
+                href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(128).jpg"
+                data-size="1600x1067"
+              >
+                <img
+                  alt="picture"
+                  src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(128).jpg"
+                  class="img-fluid"
+                />
+              </a>
+            </figure>
+
+            <figure class="col-md-4">
+              <a
+                href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(132).jpg"
+                data-size="1600x1067"
+              >
+                <img
+                  alt="picture"
+                  src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(132).jpg"
+                  class="img-fluid"
+                />
+              </a>
+            </figure>
+
+            <figure class="col-md-4">
+              <a
+                href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(115).jpg"
+                data-size="1600x1067"
+              >
+                <img
+                  alt="picture"
+                  src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(115).jpg"
+                  class="img-fluid"
+                />
+              </a>
+            </figure>
+
+            <figure class="col-md-4">
+              <a
+                href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(133).jpg"
+                data-size="1600x1067"
+              >
+                <img
+                  alt="picture"
+                  src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(133).jpg"
+                  class="img-fluid"
+                />
+              </a>
+            </figure>
+          
+        </div>
+      </div>
+    </div> 
+    <script type="text/javascript">
+   
     </script>
+    <script>
+      $(document).ready(function() {
+        $("#drop").hover(
+          function() {
+            $(".dropdown_menu", this).slideDown();
+          },
+          function() {
+            $(".dropdown_menu", this)
+              .stop()
+              .slideUp(100);
+          }
+        );
+      });
+    </script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   </body>
 </html>
