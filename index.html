@@ -18,16 +18,18 @@
       type="text/css"
       href="//stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
   </head>
   <body>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-          <div id="menu">
+    <div class="container-fluid align-self">
+      
+      <nav class="navbar sticky-top  navbar-dark bg-dark">
+          <span id="menu">
             <ul>
               <li>
-                <a href="#" class="btn btn-danger btn-default btn-lg"
-                  >Link One</a
+                <a href="#bottom_boi" class="btn btn-danger btn-default btn-lg"
+                  >Skip to the end</a
                 >
               </li>
               <li id="drop">
@@ -46,9 +48,15 @@
                 </ul>
               </li>
             </ul>
-          </div>
-        </div>
-      </div>
+            
+          </span>
+          <div class="d-flex align-items-end">
+              <form class="form-inline my-2 my-lg-0">
+                  <input class="form-control mr-md-2" type="search" placeholder="Go to" aria-label="Search">
+                  <button class="btn btn-outline-success my-2 my-md-0" type="submit">Follow da boi</button>
+                </form>
+              </div>
+        </nav>
 
       <div class="row">
         <div class="col text-center text-danger">asd</div>
@@ -59,30 +67,65 @@
       </div>
       <div class="row">
         <div class="col text-center text-danger">
-          <h1>Hello coffe world</h1>
+          <h1 id="top_boi">Hello coffe world</h1>
         </div>
       </div>
-      <div class="row  gallery">
-        <div class="col-md-12">
+      <div class="row  ">
+       
         
             <figure class="col-md-4">
               
                 <img
                   alt="picture"
                   src="grain_coffe.png"
-                  class="img-fluid  rounded mx-auto d-block"
+                  class="img-fluid  rounded  img-thumbnail mx-auto d-block ieFix rounded-circle rounded-sm" 
                 />
-                <h1> Kawa zbożowa</h1>
-                <article>
-                  Jest to napój kawo podobny, który cieszy gorzkawym przybliżonym do kawy.Jest świetnym dodatkiem do śniadania, cieszy się również popularnościom wśród młodzieży zainteresowanej tematem kawy.
-                </article>
+                <table class="table text-center table-dark table-bordered">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nazwa</th>
+                        <th scope="col">Sposób przyżądzenia</th>
+                        <th scope="col">Ciekawe ikonki</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Kawa zbożowa</td>
+                        <td>Zaleca się zalanie kawy gotowaną nie wrzącą wodą</td>
+                        <td>
+                          <table>
+                            <tr>
+                              <th><i class="material-icons">
+                                  done
+                                  </i></th>
+                              <th><i class="material-icons">
+                                  code
+                                  </i></th>
+                            </tr>
+                            <tr>
+                              <th><i class="material-icons">
+                                  free_breakfast
+                                  </i></th>
+                              <th><i class="material-icons">
+                                  smoke_free
+                                  </i></th>
+                            </tr>
+                          </table>
+
+                        </td>
+                      </tr>
+                      
+                    </tbody>
+                  </table>
             </figure>
 
             <figure class="col-md-4">
                               <img
                   alt="picture"
                   src="cof_free.png"
-                  class="img-fluid rounded  mx-auto d-block"
+                  class="img-fluid rounded img-thumbnail mx-auto d-block"
                 />
              <h1>Kawa bez kofeinowa</h1>
              <article>Podobnie jak kawa zbożowa, kawa bezkofeinowa może być świetnym zamiennikiem dla tradycyjnej kawy. Idealnie pasuje dla młodzieży próbującej wejść w swiat kawy.
@@ -98,8 +141,8 @@
               >
                 <img
                   alt="picture"
-                  src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(131).jpg"
-                  class="img-fluid"
+                  src="cowfefe.png"
+                  class="img-fluid img-thumbnail"
                 />
               </a>
             </figure>
@@ -183,12 +226,12 @@
             </figure>
           
         </div>
-      </div>
+        <a href="#top_boi" class="btn btn-danger btn-default btn-lg text-center d-flex justify-content-center "
+        ><p class="back_boi">GO back up</p> <i class="material-icons"> arrow_upwards</i></a
+      >
+            <span id="bottom_boi"></span>
     </div>
-    </div> 
-    <script type="text/javascript">
-   
-    </script>
+ 
     <script>
       $(document).ready(function() {
         $("#drop").hover(

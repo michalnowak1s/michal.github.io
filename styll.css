@@ -3,15 +3,14 @@
   --main-color: rgba(13, 110, 139, 0.75);
   --overlay-color: rgba(24, 39, 51, 0.85);
 }
-/* figure{
-  display: block;
-} */
-.galery{
-  display: table;
-}
+ .back_boi:hover{
+   box-shadow: 3px 3px 3px 3px black ;
+   border-radius: 50% 50% 50% 50%;
+   right:3px;
+  top:10px;
+ }
 .container-fluid{
-  background-image: url();
-  background: url(/coffe-2991458_1920.jpg) fixed center no-repeat;
+    background: url(/coffe-2991458_1920.jpg) fixed center no-repeat;
   background-size: cover;
   margin: 0;
   padding: 0;
@@ -31,11 +30,16 @@
  .dropdown_menu{
   display: none;
  }
-
-
+.ieFix{
+  min-height: 1rem;
+}
 .menu-bar {
   padding: 0;
   width: 20em;
   margin: 24px;
-  overflow-x: 1;
+  /* overflow-x: 1; */
+}
+img{
+  max-width: 100%;
+  height: auto;
 }
