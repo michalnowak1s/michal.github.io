@@ -23,48 +23,33 @@
   </head>
   <body>
     <div class="container-fluid align-self">
-      
-      <nav class="navbar sticky-top  navbar-dark bg-dark">
-          <span id="menu">
-            <ul>
-              <li>
-                <a href="#bottom_boi" class="btn btn-danger btn-default btn-lg"
-                  >Skip to the end</a
-                >
-              </li>
-              <li id="drop">
-                <a href="#" class="btn btn-info btn-default btn-lg">Link Two</a>
-                <ul class="dropdown_menu">
-                  <li>
-                    <a href="#" class="btn btn-primary btn-md" role="button"
-                      >Dropdown Link</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#" class="btn btn-primary btn-md" role="button"
-                      >Another Dropdown Link</a
-                    >
-                  </li>
-                </ul>
-              </li>
-            </ul>
+          <nav class="navbar navbar-expand-lg  navbar-dark bg-dark rounded">
+            <span class="navbar-brand " href="#">Coffe</span>
             
-          </span>
-          <div class="d-flex align-items-end">
-              <form class="form-inline my-2 my-lg-0">
-                  <input class="form-control mr-md-2" type="search" placeholder="Go to" aria-label="Search">
-                  <button class="btn btn-outline-success my-2 my-md-0" type="submit">Follow da boi</button>
-                </form>
-              </div>
-        </nav>
-
-      <div class="row">
-        <div class="col text-center text-danger">asd</div>
-        <div class="col text-center text-danger">asd</div>
-        <div class="w-100"></div>
-        <div class="col text-center text-danger">asd</div>
-        <div class="col text-center text-danger">asd</div>
-      </div>
+            <hr>
+            <div class="collapse navbar-collapse d-flex align-self-stretch" >
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Coffe types</a>
+                    <div class="dropdown-menu">
+                      <a href="#" class="dropdown-item">Kawa mielona</a>
+                      <a href="#" class="dropdown-item"> Kawa instant</a>
+                      <a href="#" class="dropdown-item"> Kawa ziarnista</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Other stuff
+                    </a>
+                  </li>
+                <li class="nav-item">
+                   <a href="#" class="nav-link">Another stuff
+                    </a>
+                  </li>
+                <li></li>
+              </ul>
+             </div>
+          </nav>
+      
       <div class="row">
         <div class="col text-center text-danger">
           <h1 id="top_boi">Hello coffe world</h1>
@@ -226,15 +211,16 @@
             </figure>
           
         </div>
-        <a href="#top_boi" class="btn btn-danger btn-default btn-lg text-center d-flex justify-content-center "
-        ><p class="back_boi">GO back up</p> <i class="material-icons"> arrow_upwards</i></a
-      >
+       
+        <a href="#top_boi" class="btn btn-danger btn-default btn-lg text-center d-flex justify-content-center  "
+        ><p class="back_boi">GO back up</p>   <i class="material-icons "> double_arrow</i>  </a >   
+      
             <span id="bottom_boi"></span>
     </div>
  
-    <script>
+    <!-- <script>
       $(document).ready(function() {
-        $("#drop").hover(
+        $("navbar item").hover(
           function() {
             $(".dropdown_menu", this).slideDown();
           },
@@ -245,7 +231,7 @@
           }
         );
       });
-    </script>
+    </script> -->
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   </body>
