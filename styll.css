@@ -3,58 +3,65 @@
   --main-color: rgba(13, 110, 139, 0.75);
   --overlay-color: rgba(24, 39, 51, 0.85);
 }
-a i{
-  transform: rotate(-90deg);
-  padding: 5px;
- 
+.animation{
+  animation: spin 10s infinite;
+  animation-play-state: paused;
+  background:mintcream;
+  border-radius: 30% 30% 30% 30%;
+  display:block;
+  height:100px;
+  width:100px;
+ }
+.animation:hover{
+  animation-play-state: running;
+}
+.ally{
+text-align: center;
+color: brown;
+pointer-events: none;
+
+
+}
+@keyframes spin {
+  100%{transform: rotate(1turn);}
 }
 .back_boi{
   margin: 0;
   padding: 0;
 }
  .back_boi:hover{
-   box-shadow: 3px 3px 3px 3px black ;
    border-radius: 50% 50% 50% 50%;
-  }
+   box-shadow: 3px 3px 3px 3px black ;
+    }
 
 .container-fluid{
-    background: url(/coffe-2991458_1920.jpg) fixed center no-repeat;
+  background: url(/coffe-2991458_1920.jpg) fixed center no-repeat;
   background-size: cover;
   font-family: "Lobster", cursive;
   font-style: italic;
   font-weight: bold;
   /* text-shadow: 0 0 3px rgb(231, 129, 129); */
 }
-hr{
-  transform: rotate(90deg);
-  border-width: 1px;
-  background-color: white;
-}
-#menu a{
-  text-decoration: none;
-  font-size: 1.5vw;
-  color: #000000;
+.icon_dba{
   padding: 5px;
+  transform: rotate(-90deg);
  }
- #menu ul li{
-  display: inline;
- }
- nav a{
-   text-shadow: 2px 3px 3px 2px #0000;
- }
- .dropdown_menu{
-  display: none;
- }
-.ieFix{
+ .ieFix{
   min-height: 1rem;
 }
-.menu-bar {
-  padding: 0;
-  width: 20em;
-  margin: 24px;
-  /* overflow-x: 1; */
-}
 img{
-  max-width: 100%;
-  height: auto;
-}
+  align-self: center;
+  max-height: 250px;
+  max-width: 50%;
+ }
+ .not_dis{
+   background-color: rgba(12, 34, 34, 0.75);
+   cursor:default !important;
+   display: block;
+ }
+.top_boi.green {color: #00cc00; }
+
+
+
+
+
